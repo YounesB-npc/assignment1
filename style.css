@@ -1,0 +1,36 @@
+body {
+background-color: aliceblue;
+}
+
+.title {
+border-style: solid;
+border-width: 4px;
+text-align: center;
+}
+
+.imageContainer {
+border-style: solid;
+border-width: 4px;
+justify-content: center;
+width: 40%;
+}
+
+.img1 {
+width: 200px;
+height: 200px;
+}
+
+.img2 {
+width: 200px;
+height: 200px;
+}
+
+.img3 {
+width: 350px;
+height: 200px;
+}
+
+.sideDiv {
+border-style: solid;
+border-width: 4px;
+}
