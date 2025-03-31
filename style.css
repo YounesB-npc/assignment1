@@ -9,10 +9,10 @@ text-align: center;
 }
 
 .imageContainer {
-border-style: solid;
-border-width: 4px;
 justify-content: center;
-width: 40%;
+display: flex;
+flex-wrap: wrap;
+width: 50%;
 }
 
 .img1 {
@@ -30,7 +30,16 @@ width: 350px;
 height: 200px;
 }
 
-.sideDiv {
-border-style: solid;
-border-width: 4px;
+.grp1, .grp2, .grp3 {
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
+}
+
+.sideText {
+    border-style: solid;
+    border-width: 4px;
+    position: absolute;
+    left: 55%;
+    right: 5%;
 }
